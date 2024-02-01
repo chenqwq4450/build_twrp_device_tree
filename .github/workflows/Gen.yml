@@ -38,7 +38,7 @@ jobs:
       - name: 跑
         run: |
           mkdir out
-          python3 -m twrpdtgen -o ./out/ *.img
+          python3 -m twrpdtgen -o ./out/ recoveryX6.img
           
       - name: ZIP device tree
         run: |
